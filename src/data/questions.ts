@@ -1038,7 +1038,7 @@ export const QUESTIONS: Question[] = [
   // INTERMEDIATE
   {
     id: 65, domain: 4, tier: 'intermediate',
-    text: 'You need to extract structured data from 50,000 product descriptions overnight. The downstream system ingests a batch file at 6 AM the next day. Which API approach is most appropriate?',
+    text: 'You need to extract structured data from 50,000 product descriptions overnight. The downstream system ingests a batch file at 6 AM the next day. Assume the batch job is submitted with sufficient lead time for completion. Which API approach is most appropriate?',
     options: [
       'Message Batches API — 50% cost savings with a 24-hour processing window',
       'Standard synchronous API with 50 parallel threads for maximum throughput',
@@ -1083,7 +1083,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 68, domain: 4, tier: 'intermediate',
-    text: 'You are building a multi-pass document review system: first pass extracts all claims, second pass verifies each claim against sources, third pass generates a credibility report. What architectural pattern does this represent?',
+    text: 'You are building a document review system with a few iterations: first iteration extracts all claims, second iteration verifies each claim against sources, third iteration generates a credibility report. What architectural pattern does this represent?',
     options: [
       'A standard validation retry loop that corrects schema errors on each pass',
       'Parallel decomposition where all dimensions are analyzed simultaneously',
